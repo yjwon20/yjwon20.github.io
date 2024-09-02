@@ -8,7 +8,10 @@ mermaid: true
 pin: true
 ---
 
-Jekyll 테마 중 Chirpy 테마를 이용하여 깃허브 블로그를 생성하였다. Chirpy 테마로 블로그 만들기를 검색해보면 많은 게시글이 나왔지만, 그 과정들을 따라가다보면 꼭 한 두가지씩은 막히는 방법이 있었다. 공식 문서에는 Chirpy Starter를 사용하는 방법과 fork 해오는 방법 두 가지가 나와있었는데, Starter를 이용해서 생성하면 커스터마이징 하기가 조금 귀찮아진다고 하여 fork 하는 방식을 선택하였다.
+Jekyll 테마 중 Chirpy 테마를 이용하여 깃허브 블로그를 생성하였다. Chirpy 테마로 블로그 만들기를 검색해보면 많은 게시글이 나왔지만, 그 과정들을 따라가다보면 꼭 한 두가지씩은 막히는 방법이 있었다. 공식 문서에는 Chirpy Starter를 사용하는 방법과 fork 해오는 방법 두 가지가 나와있었는데, Starter를 이용해서 생성하면 커스터마이징 하기가 조금 귀찮아진다고 하여 fork 하는 방식을 선택하였다. 
+
+> 참고 사이트: [**Chirpy** - Getting Started](https://chirpy.cotes.page/posts/getting-started/)
+{: .prompt-tip}
 
 ### Prerequisites
 
@@ -40,4 +43,4 @@ git push -u origin main
 
 ### Deployment
 
-레포지토리의 Settings - Pages 에서 Build and Deployment의 Source 설정을 **Github Actions**로 바꿔주었더니 자동 배포 설정까지 완료하였다. 앞으로는 로컬에서 글을 작성한 후 `git push origin main` 만 입력하면 자동으로 페이지가 수정된다.
+레포지토리의 Settings - Pages 에서 Build and Deployment의 Source 설정을 **Github Actions**로 바꿔주었더니 자동 배포 설정까지 완료하였다. 앞으로는 로컬에서 글을 작성한 후 `git push origin main` 만 입력하면 자동으로 페이지가 수정된다. 참고로 로컬에서 작성한 게시글을 테스트하려면 터미널에 `bundle exec jekyll s` 를 입력하고 [http://127.0.0.1:4000](http://127.0.0.1:4000) 이 주소로 들어가서 확인하면 된다.
