@@ -5,7 +5,6 @@ categories: [Blog, Notice]
 tags: [notice]     # TAG names should always be lowercase
 math: true
 mermaid: true
-pin: true
 ---
 
 <br/>
